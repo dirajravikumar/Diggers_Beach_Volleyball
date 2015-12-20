@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.nav a {
+  color: #00b0ff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav ul {
+margin: 0;
+padding: 0;	
+}
+
+.nav ul li a {
+text-decoration: none;
+float: left;
+display: block;
+padding: 10px 20px;
+text-align:center;
+}
+
+.nav ul li a:hover {
+	color: #FF9800;
+}
+
+.container {
+position: relative;
+}
+
+.header {
+font-family: 'Montserrat', sans-serif;	
+}
+
+.subheader {
+font-family: 'Oxygen', sans-serif;	
+}
+
+.paragraphs {
+
+font-family: 'Cardo', serif;
+}
+
+.footer {
+	color: #FFF;
+    float: left;
+	background-image:url(../Images/footer.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+	height: 200px;
+	width: 960px;
+}
+
+#maxwidth {
+	width: 960px;
+	margin: auto;
+}
+
+.float-right {
+	float: right;
+}
