@@ -30,21 +30,32 @@
 <div class="subheader">
   <center><h2>Sign-Up</h2></center>
 </div>
+
 <center><img src="Images/girls_game.jpg" width="450" height="350" /></center>
 
-<div class="paragraphs">
+
+<center><div class="paragraphs">
 <form>
-<p>Name:    
-  <input name="fullname" type="text" maxlength="50" />
-</p>
-<p>Phone number:
-  <input name="phonenumber" type="text" maxlength="10" />
-</p>
-<p>
-  E-Mail address:  
-  <input name="e-mail" type="text" />
-</p>
-<p>Competition day: <select name="day" size="1">
+<table width="364" border="0">
+  <tr>
+    <td width="142">First Name</td>
+    <td width="212"><input name="firstname" type="text" maxlength="30" /></td>
+  </tr>
+  <tr>
+    <td width="142">Last Name</td>
+    <td width="212"><input name="lastname" type="text" maxlength="30" /></td>
+  </tr>
+  <tr>
+    <td>Phone Number:</td>
+    <td><input name="phonenumber" type="number" maxlength="10" /></td>
+  </tr>
+  <tr>
+    <td>E-Mail Address</td>
+    <td><input name="e-mail" type="text" /></td>
+  </tr>
+  <tr>
+    <td>Competition Day</td>
+    <td><select name="day" size="1">
   <option value="-" selected="selected">-</option>
   <option value="Monday">Monday</option>
   <option value="Tuesday">Tuesday</option>
@@ -52,7 +63,9 @@
   <option value="Thursday">Thursday</option>
   <option value="Friday">Friday</option>
   <option value="Saturday">Saturday</option>
-</select></p>
+</select></td>
+  </tr>
+</table>
 
 <p>
   <input name="guideline" type="checkbox"/>
@@ -68,7 +81,7 @@ By ticking the checkbox, you agree to our terms <a href="guidelines.html">playin
 </footer>
   </div>
   
-  </div>
+  </div></center>
   
 </body>
 </html>
